@@ -27,3 +27,14 @@ console.log('Nome: ' +nome);
 console.log(' O ' +nome+ ' Tem ' +idade+ ' Anos. ');
 
 console.log(typeof(coresFavoritas));
+
+// Aula do dia 27/02/23 sobre como saber se uma variavél é ou não um array 
+const ehArray = Array.isArray(coresFavoritas);
+
+console.log(ehArray === true ? 'É um Array' : 'Não é um Array');
+
+if (ehArray === true) {
+    console.log('É array');
+} else {
+    console.log('Não é um array')
+}

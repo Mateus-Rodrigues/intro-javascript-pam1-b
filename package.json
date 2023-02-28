@@ -10,11 +10,17 @@
     "type": "git",
     "url": "git+https://github.com/Mateus-Rodrigues/intro-javascript-pam1-b.git"
   },
-  "keywords": ["Revisão", "java-script"],
+  "keywords": [
+    "Revisão",
+    "java-script"
+  ],
   "author": "Mateus Rodrigues",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Mateus-Rodrigues/intro-javascript-pam1-b/issues"
   },
-  "homepage": "https://github.com/Mateus-Rodrigues/intro-javascript-pam1-b#readme"
+  "homepage": "https://github.com/Mateus-Rodrigues/intro-javascript-pam1-b#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }
