@@ -8,12 +8,52 @@ let entrada = require("prompt-sync")();
 let n, n1, n2, n3, n4;
 
 n = entrada('Digite sua nota: ')
-n1 = parseInt(n)
+n1 = parseFloat(n)
 n = entrada('Digite sua nota: ')
-n2 = parseInt(n)
+n2 = parseFloat(n)
 n = entrada('Digite sua nota: ')
-n3 = parseInt(n)
+n3 = parseFloat(n)
 n = entrada('Digite sua nota: ')
-n4 = parseInt(n)
+n4 = parseFloat(n)
 
-let media
+let media = (n1 + n2 + n3 + n4) / 4
+
+if (media < 5) {
+    console.log(' nota I')
+}
+
+if ((media >= 5) && (media < 6)) {
+    console.log('Nota R')
+}
+
+if ((media > 6.5 ) && (media < 8.5)) {
+    console.log('Nota B')
+}
+
+if (media >= 8.5)  {
+    console.log('Nota MB')
+}
+
+/*
+confirmar com o professor oque esta errado
+
+if ((n < 0) && (n > 10)){
+    console.log('Nota digitada invalida')
+} else{
+    if (media < 5) {
+        console.log(' nota I')
+    }
+    
+    if ((media >= 5) && (media < 6)) {
+        console.log('Nota R')
+    }
+    
+    if ((media > 6.5 ) && (media < 8.5)) {
+        console.log('Nota B')
+    }
+    
+    if (media >= 8.5)  {
+        console.log('Nota MB')
+    }
+}
+*/
