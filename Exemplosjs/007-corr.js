@@ -5,19 +5,31 @@
     DICA: TENTE UTILIZAR A ESTRUTURA DO WHILE.
 */
 
-let entrada = require('prompt-sync')();
+let entrada = require('prompt-sync')(); 
 
-console.log('Repetição');
+console.log('REPETIÇÃO');
 let valor;
 valor = entrada('Insira o valor inicial: ');
-let n1 = parseInt (valor);
+let n1 = parseInt(valor);
 valor = entrada('Insira o valor final: ');
-let n2 = parseInt (valor);
+let n2 = parseInt(valor);
+let contador = n1;
 
-
-if(n1 <= n2){
-    while(contado)
+if (n1 < n2) { 
+    while (contador <= n2) {
+        console.log(contador);
+        contador++;
+    }
+} if (n1 > n2) {
+    do {
+        console.log(contador);
+        contador--;
+    } while (contador >= n2);
+} else {
+    console.log('Os número inseridos são iguais.');
 }
+
+
 
 
 console.log('Contador de um programa onde as variáveis recebidas foram: ');
